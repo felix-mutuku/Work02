@@ -31,7 +31,8 @@
             android:name=".Activities.MainActivity"
             android:label="@string/title_activity_main"
             android:theme="@style/AppTheme" />
-        <activity android:name=".Activities.ReportModuleActivity"></activity>
+        <activity android:name=".Activities.ReportModuleActivity" />
+        <activity android:name=".Activities.ReportModuleCriteriaActivity"></activity>
     </application>
 
 </manifest>

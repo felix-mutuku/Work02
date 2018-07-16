@@ -61,5 +61,9 @@
     <string name="settings">Settings</string>
     <string name="report_module">Report Module</string>
     <string name="notifications">Notifications</string>
+    <string name="specify_criteria">Specify Criteria</string>
+    <string name="choose_parameters">Choose Parameters</string>
+    <string name="select_station">Station</string>
+    <string name="select_farmer">Farmer</string>
 
 </resources>
