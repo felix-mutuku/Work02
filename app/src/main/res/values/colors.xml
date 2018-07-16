@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#4AB6F8</color>
+    <color name="colorPrimaryDark">#4AB6F8</color>
+    <color name="colorAccent">#71C623</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorGray">#f1f1f1</color>\
+    <color name="colorDarkBlue">#007cd2</color>074e7f
+    <color name="colorDarkerBlue">#074e7f</color>
+    <color name="colorDarkGreen">#024d14</color>
+    <color name="colorRed">#CC0000</color>
+
+    <array name="dot_on_page_active">
+        <item>#71C623</item>
+        <item>#71C623</item>
+        <item>#71C623</item>
+    </array>
+
+    <array name="dot_on_page_not_active">
+        <item>#4AB6F8</item>
+        <item>#4AB6F8</item>
+        <item>#4AB6F8</item>
+    </array>
+</resources>
