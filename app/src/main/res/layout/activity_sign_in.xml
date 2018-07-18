@@ -44,7 +44,7 @@
         android:textColor="@color/colorAccent"
         android:textColorHint="@color/colorAccent"
         android:textSize="16sp"
-        app:fontFamily="@font/spinnaker" />
+        app:fontFamily="@font/gotham_rounded" />
 
     <EditText
         android:id="@+id/password"
@@ -66,7 +66,7 @@
         android:textColor="@color/colorAccent"
         android:textColorHint="@color/colorAccent"
         android:textSize="16sp"
-        app:fontFamily="@font/spinnaker" />
+        app:fontFamily="@font/gotham_rounded" />
 
     <TextView
         android:id="@+id/forgot_password"
@@ -81,7 +81,7 @@
         android:text="@string/forgot_your_password"
         android:textColor="@color/colorWhite"
         android:textSize="16sp"
-        app:fontFamily="@font/spinnaker" />
+        app:fontFamily="@font/gotham_rounded" />
 
     <Button
         android:id="@+id/sign_in"
@@ -95,7 +95,7 @@
         android:text="@string/sign_in"
         android:textColor="@color/colorWhite"
         android:textSize="16sp"
-        app:fontFamily="@font/spinnaker" />
+        app:fontFamily="@font/gotham_rounded" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -108,7 +108,7 @@
         android:text="@string/don_t_have_an_account"
         android:textColor="@color/colorWhite"
         android:textSize="16sp"
-        app:fontFamily="@font/spinnaker" />
+        app:fontFamily="@font/gotham_rounded" />
 
     <Button
         android:id="@+id/sign_up"
@@ -123,6 +123,6 @@
         android:text="@string/sign_up"
         android:textColor="@color/colorWhite"
         android:textSize="16sp"
-        app:fontFamily="@font/spinnaker" />
+        app:fontFamily="@font/gotham_rounded" />
 
 </RelativeLayout>

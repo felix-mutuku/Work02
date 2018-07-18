@@ -26,7 +26,7 @@
         android:layout_centerHorizontal="true"
         android:background="@color/colorAccent"
         android:onClick="next"
-        app:fontFamily="@font/spinnaker"
+        app:fontFamily="@font/gotham_rounded"
         android:text="@string/next"
         android:textColor="@android:color/white"
         android:textSize="16sp" />
@@ -43,7 +43,7 @@
         android:background="@null"
         android:onClick="skip"
         android:text="@string/skip"
-        app:fontFamily="@font/spinnaker"
+        app:fontFamily="@font/gotham_rounded"
         android:textColor="@android:color/white"
         android:textSize="14sp" />
 

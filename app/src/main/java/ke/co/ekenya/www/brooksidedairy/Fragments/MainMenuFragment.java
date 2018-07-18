@@ -12,9 +12,10 @@ import android.view.animation.Animation;
 import android.view.animation.RotateAnimation;
 import android.widget.Button;
 import android.widget.ImageView;
+import android.widget.LinearLayout;
 
 import de.hdodenhof.circleimageview.CircleImageView;
-import ke.co.ekenya.www.brooksidedairy.Activities.IntroScreenActivity;
+import ke.co.ekenya.www.brooksidedairy.Activities.GraderActivity;
 import ke.co.ekenya.www.brooksidedairy.Activities.ReportModuleActivity;
 import ke.co.ekenya.www.brooksidedairy.R;
 
@@ -23,6 +24,7 @@ public class MainMenuFragment extends Fragment {
     CircleImageView spinning_image;
     ConstraintLayout constraint_layout;
     Button report_module;
+    LinearLayout reports, factory, driver, grader, milk_station, settings;
 
     public MainMenuFragment() {
         // Required empty public constructor
@@ -39,13 +41,19 @@ public class MainMenuFragment extends Fragment {
         constraint_layout = view.findViewById(R.id.constraint_layout);
         back = view.findViewById(R.id.back);
         report_module = view.findViewById(R.id.report_module);
+        reports = view.findViewById(R.id.reports);
+        factory = view.findViewById(R.id.factory);
+        driver = view.findViewById(R.id.driver);
+        grader = view.findViewById(R.id.grader);
+        milk_station = view.findViewById(R.id.milk_station);
+        settings = view.findViewById(R.id.settings);
 
-        RotateAnimation rotateAnimation = new RotateAnimation(100, 360,
+        RotateAnimation rotateAnimation = new RotateAnimation(0, 360,
                 Animation.RELATIVE_TO_SELF,
                 0.5f,
                 Animation.RELATIVE_TO_SELF,
                 0.5f);
-        rotateAnimation.setDuration(2000);
+        rotateAnimation.setDuration(1500);
         rotateAnimation.setRepeatCount(0);
 
         constraint_layout.startAnimation(rotateAnimation);
@@ -66,11 +74,64 @@ public class MainMenuFragment extends Fragment {
             }
         });
 
+        reports.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                //do something
+
+            }
+        });
+
+        factory.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                //do something
+
+            }
+        });
+
+        driver.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                //do something
+
+            }
+        });
+
+        grader.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                //do something
+                goToGrader();
+            }
+        });
+
+        milk_station.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                //do something
+
+            }
+        });
+
+        settings.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                //do something
+
+            }
+        });
+
         return view;
     }
 
+    private void goToGrader() {
+        Intent intent = new Intent(getActivity(), GraderActivity.class);
+        startActivity(intent);
+    }
+
     private void goToReportModule() {
-        Intent intent = new Intent(getActivity(),ReportModuleActivity.class);
+        Intent intent = new Intent(getActivity(), ReportModuleActivity.class);
         startActivity(intent);
     }
 

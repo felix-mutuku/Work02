@@ -185,7 +185,7 @@
                 android:layout_marginTop="5dp"
                 android:text="@string/registration_overview"
                 android:textColor="@color/colorWhite"
-                app:fontFamily="@font/spinnaker" />
+                app:fontFamily="@font/gotham_rounded" />
 
             <View
                 android:layout_width="match_parent"
@@ -228,7 +228,7 @@
                             android:textColor="@color/colorDarkerBlue"
                             android:textSize="12sp"
                             android:textStyle="bold"
-                            app:fontFamily="@font/spinnaker" />
+                            app:fontFamily="@font/gotham_rounded" />
 
                         <TextView
                             android:id="@+id/total_farmers"
@@ -269,7 +269,7 @@
                             android:textColor="@color/colorDarkerBlue"
                             android:textSize="12sp"
                             android:textStyle="bold"
-                            app:fontFamily="@font/spinnaker" />
+                            app:fontFamily="@font/gotham_rounded" />
 
                         <TextView
                             android:id="@+id/new_farmers"
@@ -295,7 +295,7 @@
                 android:layout_marginTop="5dp"
                 android:text="@string/todays_summary"
                 android:textColor="@color/colorWhite"
-                app:fontFamily="@font/spinnaker" />
+                app:fontFamily="@font/gotham_rounded" />
 
             <View
                 android:layout_width="match_parent"
@@ -343,7 +343,7 @@
                                 android:textColor="@color/colorDarkerBlue"
                                 android:textSize="12sp"
                                 android:textStyle="bold"
-                                app:fontFamily="@font/spinnaker" />
+                                app:fontFamily="@font/gotham_rounded" />
 
                             <TextView
                                 android:id="@+id/total_litres"
@@ -382,7 +382,7 @@
                                 android:textColor="@color/colorDarkerBlue"
                                 android:textSize="12sp"
                                 android:textStyle="bold"
-                                app:fontFamily="@font/spinnaker" />
+                                app:fontFamily="@font/gotham_rounded" />
 
                             <TextView
                                 android:id="@+id/accepted_litres"
@@ -421,7 +421,7 @@
                                 android:textColor="@color/colorDarkerBlue"
                                 android:textSize="12sp"
                                 android:textStyle="bold"
-                                app:fontFamily="@font/spinnaker" />
+                                app:fontFamily="@font/gotham_rounded" />
 
                             <TextView
                                 android:id="@+id/rejected_litres"

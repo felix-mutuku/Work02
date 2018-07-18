@@ -2,6 +2,6 @@
 <resources>
     <array name="preloaded_fonts" translatable="false">
         <item>@font/chewy</item>
-        <item>@font/spinnaker</item>
+        <item>@font/gotham_rounded</item>
     </array>
 </resources>

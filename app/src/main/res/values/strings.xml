@@ -65,5 +65,26 @@
     <string name="choose_parameters">Choose Parameters</string>
     <string name="select_station">Station</string>
     <string name="select_farmer">Farmer</string>
+    <string name="to_date">Date To</string>
+    <string name="from_date">Date From</string>
+    <string name="generate_report">Generate Report</string>
+    <string name="farmer_names">Farmer\'s names</string>
+    <string name="date">Date</string>
+    <string name="lit_accept">Litres Accepted</string>
+    <string name="lit_reject">Litres Rejected</string>
+    <string name="select_parameter">Select Parameter</string>
+    <string name="centre">Centre</string>
+    <string name="station">Station</string>
+    <string name="farmer">Farmer</string>
+    <string name="select_parameters">Select Parameters</string>
+    <string name="drag_to_select_period">Drag to select Period</string>
+    <string name="morning">Morning</string>
+    <string name="evening">Evening</string>
+    <string name="centre_breeders">Centre Breeders</string>
+    <string name="farmer_names_underline"><u><![CDATA[Farmer\'s Names]]></u></string>
+    <string name="accepted_litres_underline"><u>Accepted Litres</u></string>
+    <string name="rejected_litres_underline"><u>Rejected Litres</u></string>
+    <string name="give_a_receipt">GIVE A RECEIPT</string>
+    <string name="transporter_names">Transporter Names</string>
 
 </resources>

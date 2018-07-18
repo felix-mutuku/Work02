@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <CheckBox
+        android:id="@+id/chk_submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center" />
+
+    <TextView
+        android:id="@+id/txt_farm_collector"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight="2"
+        android:text="@string/first_name"
+        android:textColor="#5990A5"
+        app:fontFamily="@font/gotham_rounded" />
+
+    <TextView
+        android:id="@+id/txt_farm_accept_litres"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:textColor="#5990A5"
+        app:fontFamily="@font/gotham_rounded" />
+
+    <TextView
+        android:id="@+id/txt_farm_reject_litres"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:textColor="#5990A5"
+        app:fontFamily="@font/gotham_rounded" />
+
+    <Button
+        android:id="@+id/btn_center_edit"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_gravity="center"
+        android:layout_marginRight="5dp"
+        android:layout_weight="0"
+        android:background="@drawable/ic_dark_edit"
+        android:visibility="invisible" />
+
+    <Button
+        android:id="@+id/btn_center_action"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_gravity="center"
+        android:layout_weight="0"
+        android:background="@drawable/add"
+        android:visibility="invisible" />
+
+</LinearLayout>

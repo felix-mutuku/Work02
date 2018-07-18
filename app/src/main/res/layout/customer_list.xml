@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/txt_sync_idNo"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight="3"
+        android:gravity="center"
+        android:text="@string/farmer_names"
+        android:textColor="#5990A5"
+        app:fontFamily="@font/gotham_rounded" />
+
+    <TextView
+        android:id="@+id/txt_sync_phoneNo"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight="3"
+        android:gravity="center"
+        android:text="@string/phone_number"
+        android:textColor="#5990A5"
+        app:fontFamily="@font/gotham_rounded" />
+
+    <Button
+        android:id="@+id/btn_search_edit"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_gravity="center"
+        android:layout_weight="0"
+        android:background="@drawable/ic_dark_edit" />
+
+    <CheckBox
+        android:id="@+id/chk_sync"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight="0" />
+
+</LinearLayout>

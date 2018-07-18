@@ -32,7 +32,7 @@
             android:textColor="@color/colorWhite"
             android:textSize="18sp"
             android:textStyle="bold"
-            app:fontFamily="@font/spinnaker" />
+            app:fontFamily="@font/gotham_rounded" />
     </RelativeLayout>
 
     <TextView
@@ -49,7 +49,7 @@
         android:textColor="@color/colorDarkBlue"
         android:textSize="16sp"
         android:textStyle="bold"
-        app:fontFamily="@font/spinnaker" />
+        app:fontFamily="@font/gotham_rounded" />
 
     <EditText
         android:id="@+id/first_name"
@@ -64,7 +64,7 @@
         android:inputType="text"
         android:paddingBottom="20dp"
         android:textColorHint="@color/colorDarkBlue"
-        app:fontFamily="@font/spinnaker" />
+        app:fontFamily="@font/gotham_rounded" />
 
     <EditText
         android:id="@+id/other_name"
@@ -79,7 +79,7 @@
         android:inputType="text"
         android:paddingBottom="20dp"
         android:textColorHint="@color/colorDarkBlue"
-        app:fontFamily="@font/spinnaker" />
+        app:fontFamily="@font/gotham_rounded" />
 
     <EditText
         android:id="@+id/surname"
@@ -94,7 +94,7 @@
         android:inputType="text"
         android:paddingBottom="20dp"
         android:textColorHint="@color/colorDarkBlue"
-        app:fontFamily="@font/spinnaker" />
+        app:fontFamily="@font/gotham_rounded" />
 
     <EditText
         android:id="@+id/nationality"
@@ -109,7 +109,7 @@
         android:inputType="text"
         android:paddingBottom="20dp"
         android:textColorHint="@color/colorDarkBlue"
-        app:fontFamily="@font/spinnaker" />
+        app:fontFamily="@font/gotham_rounded" />
 
     <EditText
         android:id="@+id/mobile_number"
@@ -124,7 +124,7 @@
         android:inputType="phone"
         android:paddingBottom="20dp"
         android:textColorHint="@color/colorDarkBlue"
-        app:fontFamily="@font/spinnaker" />
+        app:fontFamily="@font/gotham_rounded" />
 
     <Button
         android:id="@+id/next"
@@ -137,5 +137,5 @@
         android:textAllCaps="false"
         android:textColor="@android:color/white"
         android:textSize="16sp"
-        app:fontFamily="@font/spinnaker" />
+        app:fontFamily="@font/gotham_rounded" />
 </RelativeLayout>

@@ -84,6 +84,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:orientation="vertical"
+            android:padding="10dp"
             app:layout_constraintCircle="@+id/logo"
             app:layout_constraintCircleAngle="32"
             app:layout_constraintCircleRadius="110dp">
@@ -105,13 +106,14 @@
                 android:textColor="@color/colorWhite"
                 android:textSize="12sp"
                 android:textStyle="bold"
-                app:fontFamily="@font/spinnaker" />
+                app:fontFamily="@font/gotham_rounded" />
         </LinearLayout>
 
         <LinearLayout
             android:id="@+id/factory"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:padding="10dp"
             android:orientation="vertical"
             app:layout_constraintCircle="@+id/logo"
             app:layout_constraintCircleAngle="90"
@@ -134,13 +136,14 @@
                 android:textColor="@color/colorWhite"
                 android:textSize="12sp"
                 android:textStyle="bold"
-                app:fontFamily="@font/spinnaker" />
+                app:fontFamily="@font/gotham_rounded" />
         </LinearLayout>
 
         <LinearLayout
             android:id="@+id/driver"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:padding="10dp"
             android:orientation="vertical"
             app:layout_constraintCircle="@+id/logo"
             app:layout_constraintCircleAngle="153"
@@ -163,7 +166,7 @@
                 android:textColor="#027dd2"
                 android:textSize="12sp"
                 android:textStyle="bold"
-                app:fontFamily="@font/spinnaker" />
+                app:fontFamily="@font/gotham_rounded" />
         </LinearLayout>
 
         <LinearLayout
@@ -171,6 +174,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:orientation="vertical"
+            android:padding="10dp"
             app:layout_constraintCircle="@+id/logo"
             app:layout_constraintCircleAngle="210"
             app:layout_constraintCircleRadius="110dp">
@@ -192,7 +196,7 @@
                 android:textColor="@color/colorWhite"
                 android:textSize="12sp"
                 android:textStyle="bold"
-                app:fontFamily="@font/spinnaker" />
+                app:fontFamily="@font/gotham_rounded" />
         </LinearLayout>
 
         <LinearLayout
@@ -200,6 +204,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:orientation="vertical"
+            android:padding="10dp"
             app:layout_constraintCircle="@+id/logo"
             app:layout_constraintCircleAngle="270"
             app:layout_constraintCircleRadius="110dp">
@@ -221,7 +226,7 @@
                 android:textColor="@color/colorWhite"
                 android:textSize="12sp"
                 android:textStyle="bold"
-                app:fontFamily="@font/spinnaker" />
+                app:fontFamily="@font/gotham_rounded" />
         </LinearLayout>
 
         <LinearLayout
@@ -229,6 +234,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:orientation="vertical"
+            android:padding="10dp"
             app:layout_constraintCircle="@+id/logo"
             app:layout_constraintCircleAngle="330"
             app:layout_constraintCircleRadius="110dp">
@@ -250,7 +256,7 @@
                 android:textColor="#027dd2"
                 android:textSize="12sp"
                 android:textStyle="bold"
-                app:fontFamily="@font/spinnaker" />
+                app:fontFamily="@font/gotham_rounded" />
         </LinearLayout>
     </android.support.constraint.ConstraintLayout>
 

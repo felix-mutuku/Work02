@@ -32,7 +32,8 @@
             android:label="@string/title_activity_main"
             android:theme="@style/AppTheme" />
         <activity android:name=".Activities.ReportModuleActivity" />
-        <activity android:name=".Activities.ReportModuleCriteriaActivity"></activity>
+        <activity android:name=".Activities.ReportModuleCriteriaActivity" />
+        <activity android:name=".Activities.GraderActivity"></activity>
     </application>
 
 </manifest>
