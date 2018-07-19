@@ -33,7 +33,8 @@
             android:theme="@style/AppTheme" />
         <activity android:name=".Activities.ReportModuleActivity" />
         <activity android:name=".Activities.ReportModuleCriteriaActivity" />
-        <activity android:name=".Activities.GraderActivity"></activity>
+        <activity android:name=".Activities.GraderActivity" />
+        <activity android:name=".Activities.DriverActivity"></activity>
     </application>
 
 </manifest>

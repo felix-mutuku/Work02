@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/dialog_close"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:padding="2dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/close_icon" />
+
+    <TextView
+        android:id="@+id/text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/dialog_close"
+        android:layout_centerInParent="true"
+        android:layout_gravity="center"
+        android:layout_marginBottom="35dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="15dp"
+        android:gravity="center"
+        android:text="@string/measurement_of_lactometre"
+        android:textColor="#077FD3"
+        android:textSize="18sp"
+        app:fontFamily="@font/gotham_rounded" />
+
+    <ImageView
+        android:id="@+id/dialog_thermometer"
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:layout_below="@id/text_view"
+        android:layout_centerInParent="true"
+        android:src="@drawable/thermometer_icon" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/dialog_thermometer"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <NumberPicker
+            android:id="@+id/nmbLactometer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/number_picker_outline"
+            android:scaleX="1"
+            android:scaleY="0.8" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:layout_margin="20dp"
+            android:text="."
+            android:textColor="#077FD3"
+            android:textSize="26sp"
+            android:textStyle="bold" />
+
+        <NumberPicker
+            android:id="@+id/nmbLactometerDecimal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/number_picker_outline"
+            android:scaleX="1"
+            android:scaleY="0.8" />
+    </LinearLayout>
+</RelativeLayout>

@@ -15,6 +15,7 @@ import android.widget.ImageView;
 import android.widget.LinearLayout;
 
 import de.hdodenhof.circleimageview.CircleImageView;
+import ke.co.ekenya.www.brooksidedairy.Activities.DriverActivity;
 import ke.co.ekenya.www.brooksidedairy.Activities.GraderActivity;
 import ke.co.ekenya.www.brooksidedairy.Activities.ReportModuleActivity;
 import ke.co.ekenya.www.brooksidedairy.R;
@@ -94,7 +95,7 @@ public class MainMenuFragment extends Fragment {
             @Override
             public void onClick(View v) {
                 //do something
-
+                goToDriver();
             }
         });
 
@@ -123,6 +124,11 @@ public class MainMenuFragment extends Fragment {
         });
 
         return view;
+    }
+
+    private void goToDriver() {
+        Intent intent = new Intent(getActivity(), DriverActivity.class);
+        startActivity(intent);
     }
 
     private void goToGrader() {

@@ -10,17 +10,17 @@ import android.widget.TextView;
 
 import ke.co.ekenya.www.brooksidedairy.R;
 
-public class ReportModuleCriteriaActivity extends AppCompatActivity {
-    TextView cmb_param;
+public class DriverActivity extends AppCompatActivity {
+    TextView measurement_of_lactometer_text;
     ImageView back;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_report_module_criteria);
+        setContentView(R.layout.activity_driver);
 
-        cmb_param = findViewById(R.id.cmb_param);
         back = findViewById(R.id.back);
+        measurement_of_lactometer_text = findViewById(R.id.measurement_of_lactometer_text);
 
         back.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -29,24 +29,22 @@ public class ReportModuleCriteriaActivity extends AppCompatActivity {
             }
         });
 
-        cmb_param.setOnClickListener(new View.OnClickListener() {
+        measurement_of_lactometer_text.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                //show custom dialog
-                showParameterDialog();
+                showLacrometerDialog();
             }
         });
+
     }
 
-    private void showParameterDialog() {
-        final Dialog dialog = new Dialog(ReportModuleCriteriaActivity.this);
+    private void showLacrometerDialog() {
+        final Dialog dialog = new Dialog(DriverActivity.this);
         dialog.requestWindowFeature(Window.FEATURE_NO_TITLE);
-        dialog.setContentView(R.layout.parameter_dialog);
+        dialog.setContentView(R.layout.lactometer_dialog);
 
-        TextView dialog_factory = dialog.findViewById(R.id.dialog_factory);
+        /*TextView dialog_factory = dialog.findViewById(R.id.dialog_factory);
         TextView dialog_centre = dialog.findViewById(R.id.dialog_centre);
-        TextView dialog_station = dialog.findViewById(R.id.dialog_station);
-        TextView dialog_farmer = dialog.findViewById(R.id.dialog_farmer);
 
         dialog_factory.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -62,24 +60,7 @@ public class ReportModuleCriteriaActivity extends AppCompatActivity {
                 //do something
                 dialog.dismiss();
             }
-        });
-
-        dialog_station.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                //do something
-                dialog.dismiss();
-            }
-        });
-
-        dialog_farmer.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                //do something
-                dialog.dismiss();
-            }
-        });
-
+        });*/
 
         dialog.show();
     }

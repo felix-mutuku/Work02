@@ -86,5 +86,20 @@
     <string name="rejected_litres_underline"><u>Rejected Litres</u></string>
     <string name="give_a_receipt">GIVE A RECEIPT</string>
     <string name="transporter_names">Transporter Names</string>
+    <string name="milk_test">Milk Test</string>
+    <string name="transporter_info">Transporter Information</string>
+    <string name="user">User</string>
+    <string name="organoleptic">Organoleptic</string>
+    <string name="fail">Fail</string>
+    <string name="pass">Pass</string>
+    <string name="alcohol">Alcohol</string>
+    <string name="measurement_of_lactometre"><u>Measurement of Lactometer</u></string>
+    <string name="lactometer">Lactometer</string>
+    <string name="litre">Litre</string>
+    <string name="bc_number">BC Number</string>
+    <string name="canter_chamber">Canter Chamber</string>
+    <string name="save">Save</string>
+    <string name="add_new_record">Add new record</string>
+    <string name="machine_measurements">Machine Measurements</string>
 
 </resources>
